@@ -1,0 +1,16 @@
+{
+  "name": "tersine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kelimeyi tersten duy, taklit et, tersine çevir, bul: telefondan oynanan çok oyunculu sesli oyun",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "internet": "node server.js --internet"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "qrcode-terminal": "0.12.0",
+    "ws": "8.18.0"
+  }
+}
